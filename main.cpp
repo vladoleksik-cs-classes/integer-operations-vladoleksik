@@ -9,6 +9,7 @@ int main()
 {
     int x(0), y(0);
     fin >> x >> y;
-    fout << x + y << "\n";
+    if(x=1)
+        cout << -1 << '\n';
     return 0;
 }
