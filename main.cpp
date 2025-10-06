@@ -10,6 +10,6 @@ int main()
     int x(0), y(0);
     fin >> x >> y;
     if(x=1)
-        cout << -1 << '\n';
+        fout << -1 << '\n';
     return 0;
 }
