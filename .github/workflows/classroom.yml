@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.actor != 'github-classroom[bot]'
     container:
-      image: ghcr.io/vladoleksik-cs-classes/cpp-lint-grader
+      image: ghcr.io/vladoleksik-cs-classes/cpp-custom-lint-grader
       options: --privileged
       credentials:
         username: ${{ github.actor }}
