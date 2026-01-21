@@ -12,6 +12,6 @@ int main()
     char s[]="Hi!";
     fin >> x >> y;
     for(int i=0;i<strlen(s);i++);
-    fout << -1 << '\n';
+    fout << x-y << '\n';
     return 0;
 }
